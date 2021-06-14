@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.0.1/zephyr/bootstrap.min.css" integrity="sha512-npEifuXD1hd8fZHm+2uXl5Z3T2A0XWafbbTPGVVqpyiVCgqG0NJ5eW2xmtFmutqykHYjszlm+wPY2xoYyZG3bg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="text-center">
+    <!-- Navbar Content -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Guess The Number</a>
+        </div>
+      </nav>
+    <main>
+        <h1 class="banner p-3">1.2.3.</h1>
+        <div class="form-group mb-3">
+            <input id="number-guess" class="form-control form-control-lg" type="number" placeholder="What's your guess?">
+        </div>
+        <div id="result">
+            <!-- This is where the result will be-->
+        </div>
+        <button type="button" id="number-submit" class="btn btn-lg btn-primary">Check Me</button>
+        <button type="button" id="restart-game" class="btn btn-lg btn-secondary">Restart</button>
+        <div id="history">
+            <!-- This is where the guess history will be-->
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
